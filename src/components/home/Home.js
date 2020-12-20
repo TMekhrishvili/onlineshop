@@ -18,11 +18,29 @@ const Home = () => {
                         <h2 className="title">Brand</h2>
                     </div>
                     <div className="choose-brand">
-                        
+
                     </div>
                 </div>
             </div>
             <div className="items">
+                <div className="item-number-container">
+                    <p className="item-number">201 პროდუქტი</p>
+                </div>
+                <div className="items-container">
+                    <div className="items-row">
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                    </div>
+                    <div className="items-row">
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                        <div className="item"></div>
+                    </div>
+                </div>
+                <div className="paging"></div>
             </div>
         </div>
     )

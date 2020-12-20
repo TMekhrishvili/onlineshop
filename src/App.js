@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/onlineshop">
+        <Route path="/onlineshop">
           <Home />
         </Route>
         <Route path="/item">
